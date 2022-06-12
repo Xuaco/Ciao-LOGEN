@@ -11,9 +11,10 @@
 :- use_module(library(lists)).
 :- use_module(library(compiler)).
 :- use_module(library(dec10_io)).
-:- use_module(library(prolog_sys)).
+%:- use_module(library(prolog_sys)).
+:- use_module(library(stream_utils)).
 :- use_module(library(terms_check)).
-:- use_module(library(dynamic)).
+%:- use_module(library(dynamic)).
 :- use_module(library(system)).
 
 :- use_module(library(strings)).

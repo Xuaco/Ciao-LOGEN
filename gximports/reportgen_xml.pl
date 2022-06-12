@@ -4,6 +4,8 @@
 :- use_module(library(strings)).
 :- endif.
 
+:- use_module(library(stream_utils)).
+
 reportgen(S, Tag) :-
 	% delimit the XML with << and >> on new lines. >> is used because it can
 	% never appear in valid XML.
